@@ -1,10 +1,17 @@
 {
     "sets": [
         {
+            "id":"areas",
+            "label": "Areas",
+            "hide": true,
+            "areas": [],
+            "markers": []
+        },
+        {
             "id": "poi",
             "label": "Points of Interest",
-            "hide": false,
-            "enabled": true
+            "areas": [],
+            "markers": []
         }
     ]
 }
