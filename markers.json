@@ -1,0 +1,10 @@
+{
+    "sets": [
+        {
+            "id": "poi",
+            "label": "Points of Interest",
+            "hide": false,
+            "enabled": true
+        }
+    ]
+}
