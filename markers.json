@@ -1,17 +1,1371 @@
 {
     "sets": [
         {
-            "id":"areas",
+            "id": "areas",
             "label": "Areas",
             "hide": true,
-            "areas": [],
-            "markers": []
+            "areas": [
+                {
+                    "enabled": true,
+                    "id": "ty-telsquay",
+                    "label": "Telsquay",
+                    "markup": true,
+                    "description": "<h1>Telsquay</h1>",
+                    "fillcolor": 16776960,
+                    "fillopacity": 0.3,
+                    "linecolor": 16711680,
+                    "lineweight": 1,
+                    "lineopacity": 1,
+                    "world": "data",
+                    "points": [
+                        [
+                            9370,
+                            48
+                        ],
+                        [
+                            11000,
+                            -2000
+                        ]
+                    ]
+                },
+                {
+                    "enabled": true,
+                    "id": "tyleropolis",
+                    "label": "Tyleropolis County",
+                    "linecolor": 16711680,
+                    "markup": true,
+                    "description": "<h1>Tyleropolis County</h1>",
+                    "lineopacity": 1,
+                    "lineweight": 2,
+                    "world": "data",
+                    "points": [
+                        [
+                            2300,
+                            1700
+                        ],
+                        [
+                            20000,
+                            -13000
+                        ]
+                    ]
+                },
+                {
+                    "enabled": true,
+                    "id": "tyleropolis-metro-area",
+                    "label": "Tyleropolis Metropolitan Area",
+                    "markup": true,
+                    "description": "<h1>Tyleropolis Metropolitan Area</h1>",
+                    "fillcolor": 255,
+                    "fillopacity": 0.3,
+                    "world": "data",
+                    "points": [
+                        [
+                            2300,
+                            1700
+                        ],
+                        [
+                            18000,
+                            -13000
+                        ]
+                    ]
+                }
+            ],
+            "markers": [
+                {
+                    "id": "ty-antillac-row-district",
+                    "label": "Antillac Row District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9894.0,
+                    "y": 69.0,
+                    "z": -7768.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-east-antillac-district",
+                    "label": "East Antillac District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10620.0,
+                    "y": 70.0,
+                    "z": -7496.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-mahonome-islands-district",
+                    "label": "Mahonome Islands District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 12009.0,
+                    "y": 68.0,
+                    "z": -5523.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-newpass-plains-district",
+                    "label": "Newpass Plains District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9152.0,
+                    "y": 74.0,
+                    "z": -5744.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-raelan-district",
+                    "label": "Raelan District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 12138.0,
+                    "y": 70.0,
+                    "z": -6650.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-stonetown-historical-district",
+                    "label": "Stonetown (Historical) District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9756.0,
+                    "y": 70.0,
+                    "z": -7004.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-central-district",
+                    "label": "Tyleropolis Central District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10222.0,
+                    "y": 79.0,
+                    "z": -6475.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-docks-district",
+                    "label": "Tyleropolis Docks District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9452.0,
+                    "y": 65.0,
+                    "z": -6612.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-financial-district",
+                    "label": "Tyleropolis Financial District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10858.0,
+                    "y": 72.0,
+                    "z": -6536.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-industrial-district",
+                    "label": "Tyleropolis Industrial District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 11184.0,
+                    "y": 71.0,
+                    "z": -5448.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-udetale-district",
+                    "label": "Udetale District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 11270.0,
+                    "y": 89.0,
+                    "z": -8086.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-wicks-beach-district",
+                    "label": "Wick's Beach District",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 7639.0,
+                    "y": 66.0,
+                    "z": -6520.0,
+                    "description": "",
+                    "markup": true
+                }
+            ]
         },
         {
             "id": "poi",
             "label": "Points of Interest",
             "areas": [],
-            "markers": []
+            "markers": [
+                {
+                    "id": "ed-chrin-lake-park",
+                    "label": "Chrin Lake Park",
+                    "icon": "tree",
+                    "world": "data",
+                    "x": 10587.0,
+                    "y": 68.0,
+                    "z": -946.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-col-river-viewport",
+                    "label": "Col River Viewport",
+                    "icon": "tower",
+                    "world": "data",
+                    "x": 9762.0,
+                    "y": 84.0,
+                    "z": 3585.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-colhaven-hamlet",
+                    "label": "Colhaven Hamlet",
+                    "icon": "tower",
+                    "world": "data",
+                    "x": 9828.0,
+                    "y": 100.0,
+                    "z": 3245.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-colhaven-lighthouse",
+                    "label": "Colhaven Lighthouse",
+                    "icon": "lighthouse",
+                    "world": "data",
+                    "x": 9699.0,
+                    "y": 85.0,
+                    "z": 3677.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-crater-mountain",
+                    "label": "Crater Mountain",
+                    "icon": "tree",
+                    "world": "data",
+                    "x": 10246.0,
+                    "y": 72.0,
+                    "z": 2325.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-crescent-isle-ruins",
+                    "label": "Crescent Isle Ruins",
+                    "icon": "tower",
+                    "world": "data",
+                    "x": 10134.0,
+                    "y": 54.0,
+                    "z": 3637.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-den-hotel",
+                    "label": "Den Hotel",
+                    "icon": "bed",
+                    "world": "data",
+                    "x": 9711.0,
+                    "y": 69.0,
+                    "z": 3477.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-eastden-boat-tours",
+                    "label": "Eastden Boat Tours",
+                    "icon": "camera",
+                    "world": "data",
+                    "x": 10232.0,
+                    "y": 75.0,
+                    "z": 3751.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-lake-den",
+                    "label": "Lake Den",
+                    "icon": "world",
+                    "world": "data",
+                    "x": 9972.0,
+                    "y": 79.0,
+                    "z": 3316.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-lampting-forest-fire-tower",
+                    "label": "Lampting Forest Fire Tower",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10080.0,
+                    "y": 125.0,
+                    "z": 3837.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-presville-abandoned-town",
+                    "label": "Presville Abandoned Town",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9739.0,
+                    "y": 71.0,
+                    "z": 11180.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-presville-farm",
+                    "label": "Presville Farm",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9634.0,
+                    "y": 66.0,
+                    "z": 10812.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-proll-cove-beach",
+                    "label": "Proll Cove Beach",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10301.0,
+                    "y": 64.0,
+                    "z": 2600.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-shangal-folly",
+                    "label": "Shangal Folly",
+                    "icon": "tower",
+                    "world": "data",
+                    "x": 9835.0,
+                    "y": 81.0,
+                    "z": 2488.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-traverry-ruins",
+                    "label": "Traverry Ruins",
+                    "icon": "bricks",
+                    "world": "data",
+                    "x": 10492.0,
+                    "y": 92.0,
+                    "z": 2741.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-tyleropolis-aircraft-assembly",
+                    "label": "Tyleropolis Aircraft Assembly Facility",
+                    "icon": "construction",
+                    "world": "data",
+                    "x": 10183.0,
+                    "y": 79.0,
+                    "z": 9547.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-tyleropolis-airport",
+                    "label": "Tyleropolis Airport",
+                    "icon": "world",
+                    "world": "data",
+                    "x": 9800.0,
+                    "y": 90.0,
+                    "z": 9046.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-windton-church",
+                    "label": "Windton Church",
+                    "icon": "church",
+                    "world": "data",
+                    "x": 10335.0,
+                    "y": 75.0,
+                    "z": 3733.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-windton-market",
+                    "label": "Windton Market",
+                    "icon": "basket",
+                    "world": "data",
+                    "x": 10336.0,
+                    "y": 70.0,
+                    "z": 3704.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-windton-museum",
+                    "label": "Windton Museum",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10390.0,
+                    "y": 80.0,
+                    "z": 3723.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ed-windton-parking",
+                    "label": "Windton Parking",
+                    "icon": "minecart",
+                    "world": "data",
+                    "x": 10497.0,
+                    "y": 79.0,
+                    "z": 3730.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-abervale-castle",
+                    "label": "Avervale Castle",
+                    "icon": "tower",
+                    "world": "data",
+                    "x": 8612,
+                    "y": 121,
+                    "z": -7064,
+                    "description": "Abervale Castle",
+                    "markup": true
+                },
+                {
+                    "id": "ty-altah-temple",
+                    "label": "Altah Temple",
+                    "icon": "temple",
+                    "world": "data",
+                    "x": 10278.0,
+                    "y": 64.0,
+                    "z": 791.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-beachy-island-power-station",
+                    "label": "Beachy Island Power Station",
+                    "icon": "gear",
+                    "world": "data",
+                    "x": 8759.0,
+                    "y": 66.0,
+                    "z": 482.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-brami-isle",
+                    "label": "Brami Isle",
+                    "icon": "tree",
+                    "world": "data",
+                    "x": 10997.0,
+                    "y": 78.0,
+                    "z": 299.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-canyon-lake",
+                    "label": "Canyon Lake",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9106.0,
+                    "y": 66.0,
+                    "z": -8238.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-canyon-lake-docks",
+                    "label": "Canyon Lake Docks",
+                    "icon": "compass",
+                    "world": "data",
+                    "x": 9197.0,
+                    "y": 64.0,
+                    "z": -8360.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-craven-cove-and-beach",
+                    "label": "Craven Cove and Beach",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9960.0,
+                    "y": 96.0,
+                    "z": 759.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-craven-cove-corner-shop",
+                    "label": "Craven Cove Corner Shop",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10062.0,
+                    "y": 80.0,
+                    "z": -825.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-craven-promenade",
+                    "label": "Craven Promenade",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9983.0,
+                    "y": 70.0,
+                    "z": 739.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-crescent-ridge",
+                    "label": "Crescent Ridge",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9655.0,
+                    "y": 77.0,
+                    "z": -6993.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-dirla-island-ruins",
+                    "label": "Dirla Island Ruins",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 11331.0,
+                    "y": 100.0,
+                    "z": -1924.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-gabria-park",
+                    "label": "Gabria Park",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 11542.0,
+                    "y": 92.0,
+                    "z": -7316.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-grand-plateau-cave-entrance",
+                    "label": "Grand Plateau Cave Entrance",
+                    "icon": "camera",
+                    "world": "data",
+                    "x": 8867.0,
+                    "y": 82.0,
+                    "z": -7806.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-grove-ruins",
+                    "label": "Grove Ruins",
+                    "icon": "tower",
+                    "world": "data",
+                    "x": 9017.0,
+                    "y": 94.0,
+                    "z": -7875.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-khelam-rocks",
+                    "label": "Khelam Rocks",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9742.0,
+                    "y": 64.0,
+                    "z": 1020.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-kwila-model-village",
+                    "label": "Kwila Model Village",
+                    "icon": "camera",
+                    "world": "data",
+                    "x": 9234.0,
+                    "y": 81.0,
+                    "z": -9224.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-lake-raelan",
+                    "label": "Lake Raelan",
+                    "icon": "camera",
+                    "world": "data",
+                    "x": 12265,
+                    "y": 66,
+                    "z": -6179,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-magno-palentology-dig-site",
+                    "label": "Magno Palentology Dig Site",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 12032.0,
+                    "y": 77.0,
+                    "z": -1919.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-mc-b-telsquay",
+                    "label": "MC &amp; B Telsquay",
+                    "icon": "cutlery",
+                    "world": "data",
+                    "x": 10077.0,
+                    "y": 84.0,
+                    "z": -378.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-new-worlds-adventure-park",
+                    "label": "New Worlds Adventure Park",
+                    "icon": "minecart",
+                    "world": "data",
+                    "x": 7681,
+                    "y": 71,
+                    "z": -3186,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-north-telsquay-arch",
+                    "label": "North Telsquay Arch",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10186.0,
+                    "y": 80.0,
+                    "z": -869.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-old-city-east-fort",
+                    "label": "Old City East Fort",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9934.0,
+                    "y": 75.0,
+                    "z": -6979.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-old-city-south-fort",
+                    "label": "Old City South Fort",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9664.0,
+                    "y": 71.0,
+                    "z": -6836.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-old-tyleropolis-car-park",
+                    "label": "Old Tyleropolis Car Park",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9931.0,
+                    "y": 68.0,
+                    "z": -7122.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-old-tyleropolis-lighthouse",
+                    "label": "Old Tyleropolis Lighthouse",
+                    "icon": "lighthouse",
+                    "world": "data",
+                    "x": 9634.0,
+                    "y": 81.0,
+                    "z": -6801.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-quartz-nursery",
+                    "label": "Quartz Nursery",
+                    "icon": "pin",
+                    "world": "data",
+                    "x": 9844.0,
+                    "y": 96.0,
+                    "z": -161.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-quartz-primary-school",
+                    "label": "Quartz Primary School",
+                    "icon": "pin",
+                    "world": "data",
+                    "x": 9825.0,
+                    "y": 96.0,
+                    "z": -196.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-raln-bay-cove-and-cave",
+                    "label": "Raln Bay Cove and Cave",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 13153.0,
+                    "y": 65.0,
+                    "z": -7261.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-riverside-court",
+                    "label": "Riverside Court",
+                    "icon": "house",
+                    "world": "data",
+                    "x": 10479,
+                    "y": 182,
+                    "z": -6368,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-stair-canyon",
+                    "label": "Stair Canyon",
+                    "icon": "camera",
+                    "world": "data",
+                    "x": 8657.0,
+                    "y": 64.0,
+                    "z": -8221.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-stin-sands",
+                    "label": "Stin Sands",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 7636.0,
+                    "y": 70.0,
+                    "z": -4161.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-stin-sands-holiday-park",
+                    "label": "Stin Sands Holiday Park",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 7667.0,
+                    "y": 71.0,
+                    "z": -3969.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-boat-club",
+                    "label": "Telsquay Boat Club",
+                    "icon": "house",
+                    "world": "data",
+                    "x": 10362.0,
+                    "y": 65.0,
+                    "z": -120.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-bridge-lounge",
+                    "label": "Bridge Lounge",
+                    "icon": "diamond",
+                    "world": "data",
+                    "x": 10051.0,
+                    "y": 65.0,
+                    "z": -395.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-chrinside-secondary-school",
+                    "label": "Chrinside Secondary School",
+                    "icon": "house",
+                    "world": "data",
+                    "x": 10506,
+                    "y": 65,
+                    "z": -882,
+                    "description": "Chrinside Secondary School",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-cliffs-food-court",
+                    "label": "Cliffs Food Court",
+                    "icon": "basket",
+                    "world": "data",
+                    "x": 10051.0,
+                    "y": 78.0,
+                    "z": -405.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-community-charity",
+                    "label": "Community Charity",
+                    "icon": "flower",
+                    "world": "data",
+                    "x": 10205.0,
+                    "y": 78.0,
+                    "z": -467.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-dragons-end-mound",
+                    "label": "Dragons End Mound",
+                    "icon": "camera",
+                    "world": "data",
+                    "x": 10187,
+                    "y": 115,
+                    "z": -1168,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-family-bakers",
+                    "label": "Telsquay Family Bakers",
+                    "icon": "cake",
+                    "world": "data",
+                    "x": 10207.0,
+                    "y": 78.0,
+                    "z": -443.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-farmers-market",
+                    "label": "Telsquay Farmers&#39; Market",
+                    "icon": "basket",
+                    "world": "data",
+                    "x": 10430.0,
+                    "y": 66.0,
+                    "z": -791.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-fashionique",
+                    "label": "Fashionique",
+                    "icon": "king",
+                    "world": "data",
+                    "x": 10199.0,
+                    "y": 78.0,
+                    "z": -399.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-fish-and-chips",
+                    "label": "Telsquay Fish and Chips",
+                    "icon": "cutlery",
+                    "world": "data",
+                    "x": 10193.0,
+                    "y": 78.0,
+                    "z": -445.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-garden-island",
+                    "label": "Garden Island",
+                    "icon": "tree",
+                    "world": "data",
+                    "x": 10080.0,
+                    "y": 74.0,
+                    "z": -624.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-groceries",
+                    "label": "Telsquay Groceries",
+                    "icon": "cart",
+                    "world": "data",
+                    "x": 10195.0,
+                    "y": 78.0,
+                    "z": -421.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-kennels",
+                    "label": "Telsquay Kennels",
+                    "icon": "dog",
+                    "world": "data",
+                    "x": 10465.0,
+                    "y": 65.0,
+                    "z": -1088.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-kooky-klocks",
+                    "label": "Kooky Klocks",
+                    "icon": "basket",
+                    "world": "data",
+                    "x": 10206.0,
+                    "y": 78.0,
+                    "z": -423.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-lakeside-pub",
+                    "label": "The Lakeside Pub",
+                    "icon": "beer",
+                    "world": "data",
+                    "x": 10375.0,
+                    "y": 67.0,
+                    "z": -790.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-leisure-centre",
+                    "label": "Telsquay Leisure Centre",
+                    "icon": "walk",
+                    "world": "data",
+                    "x": 10143.0,
+                    "y": 78.0,
+                    "z": -434.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-library",
+                    "label": "Telsquay Library",
+                    "icon": "bookshelf",
+                    "world": "data",
+                    "x": 10131.0,
+                    "y": 78.0,
+                    "z": -409.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-milky-way",
+                    "label": "Milky Way",
+                    "icon": "cup",
+                    "world": "data",
+                    "x": 10194.0,
+                    "y": 78.0,
+                    "z": -467.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-miners-inn",
+                    "label": "Miner&#39;s Inn",
+                    "icon": "beer",
+                    "world": "data",
+                    "x": 9956.0,
+                    "y": 68.0,
+                    "z": -122.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-mines",
+                    "label": "Telsquay Mines",
+                    "icon": "construction",
+                    "world": "data",
+                    "x": 10014.0,
+                    "y": 33.0,
+                    "z": -236.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-museum",
+                    "label": "Telsquay Museum",
+                    "icon": "temple",
+                    "world": "data",
+                    "x": 10063.0,
+                    "y": 66.0,
+                    "z": -434.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-port",
+                    "label": "Telsquay Port",
+                    "icon": "compass",
+                    "world": "data",
+                    "x": 10728.0,
+                    "y": 71.0,
+                    "z": -375.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-quarry-court",
+                    "label": "Quarry Court",
+                    "icon": "bed",
+                    "world": "data",
+                    "x": 9989.0,
+                    "y": 93.0,
+                    "z": -378.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-quay-cafe",
+                    "label": "Quay Cafe",
+                    "icon": "cutlery",
+                    "world": "data",
+                    "x": 10108.0,
+                    "y": 78.0,
+                    "z": -463.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-riverside-park",
+                    "label": "Riverside Park",
+                    "icon": "tree",
+                    "world": "data",
+                    "x": 10141.0,
+                    "y": 66.0,
+                    "z": -229.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-scorching-monument",
+                    "label": "Telsquay Scorching Monument",
+                    "icon": "temple",
+                    "world": "data",
+                    "x": 10092.0,
+                    "y": 79.0,
+                    "z": -341.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-shopping-mall",
+                    "label": "Telsquay Shopping Mall",
+                    "icon": "cart",
+                    "world": "data",
+                    "x": 10279.0,
+                    "y": 78.0,
+                    "z": -433.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-spartan-business-centre",
+                    "label": "Spartan Business Centre",
+                    "icon": "building",
+                    "world": "data",
+                    "x": 10200.0,
+                    "y": 78.0,
+                    "z": -356.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-the-port-diner",
+                    "label": "The Port Diner",
+                    "icon": "cutlery",
+                    "world": "data",
+                    "x": 10075.0,
+                    "y": 84.0,
+                    "z": -420.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-theatre",
+                    "label": "Telsquay Theatre",
+                    "icon": "theater",
+                    "world": "data",
+                    "x": 10129.0,
+                    "y": 82.0,
+                    "z": -455.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-tower",
+                    "label": "Telsquay Tower",
+                    "icon": "tower",
+                    "world": "data",
+                    "x": 10012.0,
+                    "y": 71.0,
+                    "z": -434.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-ungerground-station-north",
+                    "label": "Telsquay Underground Station - North Entrance",
+                    "icon": "minecart",
+                    "world": "data",
+                    "x": 10164.0,
+                    "y": 77.0,
+                    "z": -497.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-ungerground-station-south",
+                    "label": "Telsquay Underground Station - South Entrance",
+                    "icon": "minecart",
+                    "world": "data",
+                    "x": 10279.0,
+                    "y": 78.0,
+                    "z": -376.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-telsquay-weather-station",
+                    "label": "Telsquay Weather Station",
+                    "icon": "sun",
+                    "world": "data",
+                    "x": 9663.0,
+                    "y": 68.0,
+                    "z": -513.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-three-peaks-national-park",
+                    "label": "Three Peaks Adventure Park",
+                    "icon": "tree",
+                    "world": "data",
+                    "x": 8849.0,
+                    "y": 89.0,
+                    "z": -8090.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-diving-site-1",
+                    "label": "Tyleropolis Diving - Dive Site 1",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10339.0,
+                    "y": 67.0,
+                    "z": 1700.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-diving-site-2",
+                    "label": "Tyleropolis Diving - Dive Site 2",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10425.0,
+                    "y": 66.0,
+                    "z": 1146.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-diving-site-3",
+                    "label": "Tyleropolis Diving - Dive Site 3",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10588.0,
+                    "y": 65.0,
+                    "z": 2706.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-museum",
+                    "label": "Tyleropolis Museum",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 10010.0,
+                    "y": 85.0,
+                    "z": -6947.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-national-park-north",
+                    "label": "Tyleropolis National Park - Northern Entrance",
+                    "icon": "tree",
+                    "world": "data",
+                    "x": 9953.0,
+                    "y": 69.0,
+                    "z": 41.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-national-park-south",
+                    "label": "Tyleropolis National Park - Southern Entrance",
+                    "icon": "tree",
+                    "world": "data",
+                    "x": 9733.0,
+                    "y": 72.0,
+                    "z": 1662.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-np-museum",
+                    "label": "Tyleropolis National Park Museum",
+                    "icon": "temple",
+                    "world": "data",
+                    "x": 9950.0,
+                    "y": 89.0,
+                    "z": 212.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-np-terra-ridge",
+                    "label": "Terra Ridge",
+                    "icon": "pin",
+                    "world": "data",
+                    "x": 9682.0,
+                    "y": 114.0,
+                    "z": 868.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-old-city",
+                    "label": "Tyleropolis Old City",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9699.0,
+                    "y": 76.0,
+                    "z": -6968.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-police-station",
+                    "label": "Tyleropolis Police Station",
+                    "icon": "md-police",
+                    "world": "data",
+                    "x": 10671,
+                    "y": 70,
+                    "z": -6393,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-sign",
+                    "label": "Tyleropolis Sign",
+                    "icon": "camera",
+                    "world": "data",
+                    "x": 10057.0,
+                    "y": 86.0,
+                    "z": -6962.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-zoo",
+                    "label": "Tyleropolis Zoology Park",
+                    "icon": "dog",
+                    "world": "data",
+                    "x": 8963.0,
+                    "y": 66.0,
+                    "z": -87.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-zoo-aquarium",
+                    "label": "Tyleropolis Zoo Aquarium",
+                    "icon": "default",
+                    "world": "data",
+                    "x": 9139.0,
+                    "y": 73.0,
+                    "z": -314.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-zoo-station",
+                    "label": "Tyleropolis Zoo Underground Station",
+                    "icon": "minecart",
+                    "world": "data",
+                    "x": 8872.0,
+                    "y": 65.0,
+                    "z": -41.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-tyleropolis-zoo-visitor-centre",
+                    "label": "Tyleropolis Zoo Visitor Centre",
+                    "icon": "temple",
+                    "world": "data",
+                    "x": 9115.0,
+                    "y": 84.0,
+                    "z": -273.0,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-waverley-park",
+                    "label": "Waverley Park",
+                    "icon": "tree",
+                    "world": "data",
+                    "x": 10327,
+                    "y": 64,
+                    "z": -6583,
+                    "description": "",
+                    "markup": true
+                },
+                {
+                    "id": "ty-wicks-toll-bridge",
+                    "label": "Wick's Toll Bridge",
+                    "icon": "bricks",
+                    "world": "data",
+                    "x": 6677.0,
+                    "y": 77.0,
+                    "z": -6170.0,
+                    "description": "",
+                    "markup": true
+                }
+            ]
         }
     ]
 }
